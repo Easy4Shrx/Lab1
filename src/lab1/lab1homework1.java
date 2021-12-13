@@ -14,7 +14,7 @@ public class lab1homework1 {
             String book1 = scanner.next();
             System.out.print(" Введите год выпуска: ");
             int year1 = scanner.nextInt();
-            System.out.print(" Введите группу:  ");
+            System.out.print(" Введите группу Х, У, С: ");
             String  group1 = scanner.next();
             System.out.print(" Введите автора книги : ");
             String autor2 = scanner.next();
@@ -22,7 +22,7 @@ public class lab1homework1 {
             String book2 = scanner.next();
             System.out.print(" Введите год выпуска: ");
             int year2 = scanner.nextInt();
-            System.out.print(" Введите группу:  ");
+            System.out.print(" Введите группу Х, У, С: ");
             String group2 = scanner.next();
             System.out.print(" Введите автора книги : ");
             String autor3 = scanner.next();
@@ -30,7 +30,7 @@ public class lab1homework1 {
             String book3 = scanner.next();
             System.out.print(" Введите год выпуска: ");
             int year3 = scanner.nextInt();
-            System.out.print(" Введите группу:  ");
+            System.out.print(" Введите группу Х, У, С:  ");
             String group3 = scanner.next();
 
             System.out.format("+------------------------------------------------------------------------------------+%n");
@@ -43,8 +43,6 @@ public class lab1homework1 {
             System.out.format("|%-30s|%-29s|%-12s|%-10s|%n",autor2,book2,year2,group2);
             System.out.format("|------------------------------------------------------------------------------------|%n");
             System.out.format("|%-30s|%-29s|%-12s|%-10s|%n",autor3,book3,year3,group3);
-            System.out.format("|------------------------------------------------------------------------------------|%n");
-            System.out.format("|%-30s|%-29s|%-12s|%-10s|%n",autor1,book1,year1,group1);
             System.out.format("|------------------------------------------------------------------------------------|%n");
             System.out.format("|Перечисляемый тип: Х-Художественная лит-ра; У-учебная лит-ра; С-справочная лит-ра;  |%n");
             System.out.format("+------------------------------------------------------------------------------------+%n");
